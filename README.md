@@ -30,7 +30,7 @@ The target datasets could be easily downloaded in the following links:
 
 After downloaded all the necessary validate dataset, make sure they are organized as follows:
 ```bash
-|NTIRE2025_CDFSOD_Challenge/
+|NTIRE2025_CDFSOD/datasets/
 |--clipart1k/
 |   |--annotations
 |   |--test
