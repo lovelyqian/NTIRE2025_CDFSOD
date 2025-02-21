@@ -19,16 +19,15 @@ We suggest using Anaconda for environment management. Here's how to set up the e
 - **Step 2**: install other libs:
   ```bash
     pip install -r requirements.txt
-
 or take it as a reference based on your original environments.
 
 ## The Validation datasets
 We take COCO as source data and ArTaxOr, Clipart1k, DIOR, DeepFish, NEU-DET, and UODD as validation datasets.
 
 The target datasets could be easily downloaded in the following links: 
-- [Dataset Link from Google Drive](https://drive.google.com/drive/folders/16SDv_V7RDjTKDk8uodL2ubyubYTMdd5q?usp=drive_link)
+- [Dataset and Weights Link from Google Drive](https://drive.google.com/drive/folders/16SDv_V7RDjTKDk8uodL2ubyubYTMdd5q?usp=drive_link)
 
-After downloaded all the necessary validate dataset, make sure they are organized as follows:
+After downloaded all the necessary validate datasets, make sure they are organized as follows:
 ```bash
 |NTIRE2025_CDFSOD/datasets/
 |--clipart1k/
@@ -40,3 +39,12 @@ After downloaded all the necessary validate dataset, make sure they are organize
 |   |--test
 |   |--train
 |--......
+```
+And the weights should be organized as follows:
+```bash
+|NTIRE2025_CDFSOD/weights/
+|--trained/
+|   |--vitl_0089999.pth
+|--background/
+|   |--background_prototypes.vitl14.pth
+```
