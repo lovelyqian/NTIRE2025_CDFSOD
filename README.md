@@ -18,7 +18,9 @@ We suggest using Anaconda for environment management. Here's how to set up the e
     conda activate cdfsod
 - **Step 2**: install other libs:
   ```bash
+    cd NTIRE2025_CDFSOD
     pip install -r requirements.txt
+    pip install -e ./
 or take it as a reference based on your original environments.
 
 ## The Validation datasets
