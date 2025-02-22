@@ -50,3 +50,32 @@ And the weights should be organized as follows:
 |--background/
 |   |--background_prototypes.vitl14.pth
 ```
+
+## Test the baseline model
+As the environment is ready, select different baseline to test
+### Run CD-ViTO
+```
+bash main_results.sh
+```
+### Run DE-ViT-FT
+Add --controller to main_results.sh, then
+```
+bash main_results.sh
+```
+## References
+If you feel this codebase and the report paper is useful for you, please cite our baseline work:
+```
+@inproceedings{fu2025cross,
+  title={Cross-domain few-shot object detection via enhanced open-set object detector},
+  author={Fu, Yuqian and Wang, Yu and Pan, Yixuan and Huai, Lian and Qiu, Xingyu and Shangguan, Zeyu and Liu, Tong and Fu, Yanwei and Van Gool, Luc and Jiang, Xingqun},
+  booktitle={European Conference on Computer Vision},
+  pages={247--264},
+  year={2025},
+  organization={Springer}
+}
+```
+
+## Origanizers
+
+
+## Acknowledgement
