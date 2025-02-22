@@ -16,3 +16,4 @@ xformers==0.0.16 # xformers==0.0.18 works better, but 0.0.18 depends on torch2. 
 ftfy==6.1.1
 fvcore
 info-nce-pytorch
+triton

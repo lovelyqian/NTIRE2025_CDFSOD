@@ -1,7 +1,7 @@
 _BASE_: "../Base-RCNN-C4.yaml"
 DE:
   CLASS_PROTOTYPES: "prototypes_init/clipart1k_1shot.vitl14.bbox.p1.sk.pkl"
-  BG_PROTOTYPES: "weights/initial/background/background_prototypes.vitl14.pth"
+  BG_PROTOTYPES: "weights/background/background_prototypes.vitl14.pth"
   BG_CLS_LOSS_WEIGHT: 0.2
   TOPK: 5
   SET_CD_VITO: True
