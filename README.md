@@ -4,6 +4,8 @@ NTIRE 2025 Challenge on 1-st Cross-Domain Few-Shot Object Detection @ CVPR 2025
 ## About the Challenge
 In this challenge, we invite researchers and developers to participate in the Cross-Domain Few-Shot Object Detection (CD-FSOD) competition. The task is to develop and improve methods for few-shot object detection, specifically in cross-domain settings.
 
+![benchmark](.\image\benchmark.png)
+
 Participants will test their models on a set of target datasets and aim to achieve the best performance in terms of detection accuracy, model efficiency, and few-shot learning on different domains. The main objective is to push the boundaries of object detection methods in cross-domain scenarios, using very few labeled target images.
 
 This challenge does not impose restrictions on source data selection (e.g., COCO) or pretrained models, allowing participants to leverage diverse knowledge sources to improve performance on the target domain. We will provide multiple novel datasets for validation, while the final evaluation will be conducted on previously unseen test sets. Mean Average Precision (mAP) will be used as the ranking metric.
