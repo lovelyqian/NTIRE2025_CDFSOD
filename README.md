@@ -85,7 +85,7 @@ To ensure fairness and meaningful benchmarking, participants must adhere to the 
 The top-ranked participants will be awarded and invited to follow the CVPR submission guide for workshops to describe their solution and to submit to the associated NTIRE workshop at CVPR 2025.
 
 ## References
-If you feel this codebase and the report paper is useful for you, please cite our baseline work:
+please considering cite our baseline work:
 ```
 @inproceedings{fu2025cross,
   title={Cross-domain few-shot object detection via enhanced open-set object detector},
@@ -97,6 +97,25 @@ If you feel this codebase and the report paper is useful for you, please cite ou
 }
 ```
 
+and if you are looking for related works for cross-domain few-shot learning, please considering also: 
+```
+@inproceedings{fu2023styleadv,
+  title={Styleadv: Meta style adversarial training for cross-domain few-shot learning},
+  author={Fu, Yuqian and Xie, Yu and Fu, Yanwei and Jiang, Yu-Gang},
+  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},
+  pages={24575--24584},
+  year={2023}
+}
+
+@inproceedings{fu2021meta,
+  title={Meta-fdmixup: Cross-domain few-shot learning guided by labeled target data},
+  author={Fu, Yuqian and Fu, Yanwei and Jiang, Yu-Gang},
+  booktitle={Proceedings of the 29th ACM international conference on multimedia},
+  pages={5326--5334},
+  year={2021}
+}
+
+```
 ## Origanizers
 
 
