@@ -69,7 +69,7 @@ bash main_results.sh
 
 ## Evaluation Criteria & Fairness
 To ensure fairness and meaningful benchmarking, participants must adhere to the following guidelines:
-- **Mean Average Precision (mAP)** will be the primary ranking metric.
+- **Mean Average Precision (mAP)**: mAP will be the primary ranking metric.
 - **Platform**: The challenge will be hosted on [Codalab / EvalAI / Kaggle] (TBD).
 - **Submission Format**: Predictions must be submitted in COCO-style JSON annotations.
 - **Training Restrictions**:Participants may use any publicly available pretrained models, but no direct training or fine-tuning using the provided test sets is allowed.
