@@ -1,5 +1,6 @@
 # NTIRE2025_CDFSOD
 NTIRE 2025 Challenge on 1-st Cross-Domain Few-Shot Object Detection @ CVPR 2025
+Link:https://codalab.lisn.upsaclay.fr/competitions/21851
 
 ## About the Challenge
 In this challenge, we invite researchers and developers to participate in the Cross-Domain Few-Shot Object Detection (CD-FSOD) competition. The task is to develop and improve methods for few-shot object detection, specifically in cross-domain settings.
