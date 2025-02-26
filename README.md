@@ -1,21 +1,21 @@
 # NTIRE2025_CDFSOD
-NTIRE 2025 Challenge on 1-st Cross-Domain Few-Shot Object Detection @ CVPR 2025
-Link:https://codalab.lisn.upsaclay.fr/competitions/21851
+NTIRE 2025 Challenge on **1-st Cross-Domain Few-Shot Object Detection @ CVPR 2025** 🔥🔥
+Link: https://codalab.lisn.upsaclay.fr/competitions/21851
 
 ## About the Challenge
 In this challenge, we invite researchers and developers to participate in the **Cross-Domain Few-Shot Object Detection (CD-FSOD)** competition. The task is to develop and improve methods for few-shot object detection, specifically in cross-domain settings.
 
 ![benchmark](./image/benchmark.png)
 
-Participants will test their models on a set of target datasets and aim to achieve the best performance in terms of **detection accuracy**, **model efficiency**, and **few-shot learning** on different domains. The main objective is to push the boundaries of object detection methods in cross-domain scenarios, using very few labeled target images.
+Participants will test their models on a set of target datasets and aim to achieve the best performance in terms of **Mean Average Precision (mAP)** on different domains. The main objective is to push the boundaries of object detection methods in cross-domain scenarios, using very few labeled target images.
 
-This challenge does not impose restrictions on **source data selection** (e.g., COCO) or pretrained models, allowing participants to leverage diverse knowledge sources to improve performance on the target domain. We will provide multiple novel datasets for validation, while the final evaluation will be conducted on previously unseen test sets. **Mean Average Precision (mAP)** will be used as the ranking metric.
+This challenge does not impose restrictions on **source data selection** (e.g., COCO) or pretrained models, allowing participants to leverage diverse knowledge sources to improve performance on the target domain. We will provide multiple novel datasets for validation, while the final evaluation will be conducted on previously unseen test sets. The **mAP** will be used as the ranking metric.
 
 We will also provide several strong baseline models, while strongly encouraging participants to explore innovative solutions that improve detection accuracy on the target domain while effectively leveraging knowledge from the source domain. This challenge offers a unique opportunity for researchers and practitioners from academia and industry to push the boundaries of cross-domain few-shot object detection.
 
 
 ## The Environments
-The evaluation environments adopted by us is recorded in the following part.Below are the system requirements and setup instructions to reproduce the evaluation environment.
+The evaluation environments we adopted are recorded in the following section. Below are the system requirements and setup instructions for reproducing the evaluation environment.
 
 ### Required Environment Setup
 We suggest using Anaconda for environment management. Here's how to set up the environment for the challenge:
@@ -32,12 +32,12 @@ We suggest using Anaconda for environment management. Here's how to set up the e
 or take it as a reference based on your original environments.
 
 ## The Validation datasets
-We take COCO as source data and ArTaxOr, Clipart1k and DeepFish as validation datasets.
+We take COCO as source data and ArTaxOr, Clipart1k, and DeepFish as validation datasets.
 
 The target datasets could be easily downloaded in the following links: 
 - [Dataset and Weights Link from Google Drive](https://drive.google.com/drive/folders/16SDv_V7RDjTKDk8uodL2ubyubYTMdd5q?usp=drive_link)
 
-After downloaded all the necessary validation datasets, make sure they are organized as follows:
+After downloading all the necessary validation datasets, make sure they are organized as follows:
 ```bash
 |NTIRE2025_CDFSOD/datasets/
 |--clipart1k/
@@ -60,7 +60,7 @@ And the weights should be organized as follows:
 ```
 
 ## Test the baseline model
-As the environment is ready, select different baseline to test
+As the environment is ready, select a different baseline to test
 ### Run CD-ViTO
 ```
 bash main_results.sh
@@ -74,10 +74,10 @@ bash main_results.sh
 ## Evaluation Criteria & Fairness
 To ensure fairness and meaningful benchmarking, participants must adhere to the following guidelines:
 - **Mean Average Precision (mAP)**: mAP will be the primary ranking metric.
-- **Platform**: The challenge will be hosted on [Codalab / EvalAI / Kaggle] (TBD).
+- **Platform**: The challenge will be hosted on [Codalab](https://codalab.lisn.upsaclay.fr/competitions/21851).
 - **Submission Format**: Predictions must be submitted in COCO-style JSON annotations.
-- **Training Restrictions**:Participants may use any publicly available pretrained models, but no direct training or fine-tuning using the provided test sets is allowed.
-- **Statement**:Each submission must include a reproducibility statement, detailing the model’s training strategy and pretrained resources used.
+- **Training Restrictions**: Participants may use any publicly available pretrained models, and use the few-labeled supports (1shot/5shot/10shot) for finetuning the models.  However, manually search for more support images is strictly **forbidden**. 
+- **Statement**: Each submission must include a reproducibility statement, detailing the model’s training strategy and pretrained resources used.
 
 ## Provided Resources
 - **CD-FSOD Benchmark**: A dataset with distinct source and target domains designed for evaluating cross-domain FSOD models.
@@ -87,7 +87,7 @@ To ensure fairness and meaningful benchmarking, participants must adhere to the 
 **The top-ranked participants will be awarded and invited to follow the CVPR submission guide for workshops to describe their solution and to submit to the associated NTIRE workshop at CVPR 2025.**
 
 ## References
-please considering cite our baseline work:
+please consider citing our baseline work:
 ```
 @inproceedings{fu2025cross,
   title={Cross-domain few-shot object detection via enhanced open-set object detector},
@@ -99,7 +99,7 @@ please considering cite our baseline work:
 }
 ```
 
-and if you are looking for related works for cross-domain few-shot learning, please considering also: 
+and if you are looking for related works for cross-domain few-shot learning, please consider also: 
 ```
 @inproceedings{fu2023styleadv,
   title={Styleadv: Meta style adversarial training for cross-domain few-shot learning},
@@ -139,4 +139,5 @@ Luc Van Gool (luc.vangool@insait.ai)
 
 For more details about the NTIRE Workshop and challenge organizers, visit: [NTIRE 2025](https://cvlai.net/ntire/2025/).
 
-## Acknowledgement
+## Others
+For more details, e.g., the submission, the final scoring method, please see our [codalab](https://codalab.lisn.upsaclay.fr/competitions/21851).
