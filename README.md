@@ -118,7 +118,7 @@ and if you are looking for related works for cross-domain few-shot learning, ple
 }
 
 ```
-## Origanizers
+## Organizers
 For inquiries, please contact the challenge organizers: 
 
 Yuqian Fu (yuqian.fu@insait.ai)
