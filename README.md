@@ -3,15 +3,16 @@ NTIRE 2025 Challenge on 1-st Cross-Domain Few-Shot Object Detection @ CVPR 2025
 Link:https://codalab.lisn.upsaclay.fr/competitions/21851
 
 ## About the Challenge
-In this challenge, we invite researchers and developers to participate in the Cross-Domain Few-Shot Object Detection (CD-FSOD) competition. The task is to develop and improve methods for few-shot object detection, specifically in cross-domain settings.
+In this challenge, we invite researchers and developers to participate in the **Cross-Domain Few-Shot Object Detection (CD-FSOD)** competition. The task is to develop and improve methods for few-shot object detection, specifically in cross-domain settings.
 
 ![benchmark](./image/benchmark.png)
 
-Participants will test their models on a set of target datasets and aim to achieve the best performance in terms of detection accuracy, model efficiency, and few-shot learning on different domains. The main objective is to push the boundaries of object detection methods in cross-domain scenarios, using very few labeled target images.
+Participants will test their models on a set of target datasets and aim to achieve the best performance in terms of **detection accuracy**, **model efficiency**, and **few-shot learning** on different domains. The main objective is to push the boundaries of object detection methods in cross-domain scenarios, using very few labeled target images.
 
-This challenge does not impose restrictions on source data selection (e.g., COCO) or pretrained models, allowing participants to leverage diverse knowledge sources to improve performance on the target domain. We will provide multiple novel datasets for validation, while the final evaluation will be conducted on previously unseen test sets. Mean Average Precision (mAP) will be used as the ranking metric.
+This challenge does not impose restrictions on **source data selection** (e.g., COCO) or pretrained models, allowing participants to leverage diverse knowledge sources to improve performance on the target domain. We will provide multiple novel datasets for validation, while the final evaluation will be conducted on previously unseen test sets. **Mean Average Precision (mAP)** will be used as the ranking metric.
 
 We will also provide several strong baseline models, while strongly encouraging participants to explore innovative solutions that improve detection accuracy on the target domain while effectively leveraging knowledge from the source domain. This challenge offers a unique opportunity for researchers and practitioners from academia and industry to push the boundaries of cross-domain few-shot object detection.
+
 
 ## The Environments
 The evaluation environments adopted by us is recorded in the following part.Below are the system requirements and setup instructions to reproduce the evaluation environment.
@@ -31,19 +32,19 @@ We suggest using Anaconda for environment management. Here's how to set up the e
 or take it as a reference based on your original environments.
 
 ## The Validation datasets
-We take COCO as source data and ArTaxOr, Clipart1k, DIOR, DeepFish, NEU-DET, and UODD as validation datasets.
+We take COCO as source data and ArTaxOr, Clipart1k and DeepFish as validation datasets.
 
 The target datasets could be easily downloaded in the following links: 
 - [Dataset and Weights Link from Google Drive](https://drive.google.com/drive/folders/16SDv_V7RDjTKDk8uodL2ubyubYTMdd5q?usp=drive_link)
 
-After downloaded all the necessary validate datasets, make sure they are organized as follows:
+After downloaded all the necessary validation datasets, make sure they are organized as follows:
 ```bash
 |NTIRE2025_CDFSOD/datasets/
 |--clipart1k/
 |   |--annotations
 |   |--test
 |   |--train
-|--DIOR/
+|--ArTaxOr/
 |   |--annotations
 |   |--test
 |   |--train
@@ -118,6 +119,24 @@ and if you are looking for related works for cross-domain few-shot learning, ple
 
 ```
 ## Origanizers
+For inquiries, please contact the challenge organizers: 
 
+Yuqian Fu (yuqian.fu@insait.ai)
+
+Xingyu Qiu (xyqiu24@m.fudan.edu.cn)
+
+Bin Ren (bin.ren@unitn.it)
+
+Yanwei Fu (yanweifu@fudan.edu.cn)
+
+Radu Timofte (radu.timofte@uni-wuerzburg.de)
+
+Nicu Sebe (niculae.sebe@unitn.it)
+
+Ming-Hsuan Yang (mhyang@ucmerced.edu)
+
+Luc Van Gool (luc.vangool@insait.ai)
+
+For more details about the NTIRE Workshop and challenge organizers, visit: [NTIRE 2025](https://cvlai.net/ntire/2025/).
 
 ## Acknowledgement
