@@ -84,7 +84,7 @@ To ensure fairness and meaningful benchmarking, participants must adhere to the 
 - **Baseline Models**: We will provide baseline implementations of DE-ViT and CD-ViTO, along with training scripts and benchmark results.
 - **Evaluation Server**: Participants will submit results to an online leaderboard for validation and testing.
 
-The top-ranked participants will be awarded and invited to follow the CVPR submission guide for workshops to describe their solution and to submit to the associated NTIRE workshop at CVPR 2025.
+**The top-ranked participants will be awarded and invited to follow the CVPR submission guide for workshops to describe their solution and to submit to the associated NTIRE workshop at CVPR 2025.**
 
 ## References
 please considering cite our baseline work:
