@@ -140,4 +140,4 @@ Luc Van Gool (luc.vangool@insait.ai)
 For more details about the NTIRE Workshop and challenge organizers, visit: [NTIRE 2025](https://cvlai.net/ntire/2025/).
 
 ## Others
-For more details, e.g., the submission, the final scoring method, please see our [codalab](https://codalab.lisn.upsaclay.fr/competitions/21851).
+For more details, e.g., the important dates, the submission, the final scoring method, please see our [codalab](https://codalab.lisn.upsaclay.fr/competitions/21851).
