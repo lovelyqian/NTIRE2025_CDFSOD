@@ -34,7 +34,7 @@ We suggest using Anaconda for environment management. Here's how to set up the e
     pip install -e ./
 or take it as a reference based on your original environments.
 
-## The Validation datasets
+## The Validation Datasets
 We take COCO as source data and ArTaxOr, Clipart1k, and DeepFish as validation datasets.
 
 The target datasets could be easily downloaded in the following links: 
