@@ -40,7 +40,8 @@ We take COCO as source data and ArTaxOr, Clipart1k, and DeepFish as validation d
 The target datasets could be easily downloaded in the following links: 
 - [Dataset and Weights Link from Google Drive](https://drive.google.com/drive/folders/16SDv_V7RDjTKDk8uodL2ubyubYTMdd5q?usp=drive_link)
 
-**03.01 Testing Datasets Release**
+## The Test Datasets
+03-01: we just released the datasets for testing!
 
 **The testing datasets could be easily downloaded in the following links:**
 - **[Dataset Link from Google Drive](https://drive.google.com/drive/folders/1Pewv7HYacwD5Rrknp5EiAdw8vMbaaFAA?usp=sharing)**
