@@ -32,10 +32,15 @@ We suggest using Anaconda for environment management. Here's how to set up the e
 or take it as a reference based on your original environments.
 
 ## The Validation datasets
-We take COCO as source data and ArTaxOr, Clipart1k and DeepFish as validation datasets.
+Regarding the competition schedule, our platform provides only three validation datasets (ArTaxOr, Clipart1k and DeepFish). However, the ECCV version includes six datasets (which can be used for local validation).
 
 The target datasets could be easily downloaded in the following links: 
 - [Dataset and Weights Link from Google Drive](https://drive.google.com/drive/folders/16SDv_V7RDjTKDk8uodL2ubyubYTMdd5q?usp=drive_link)
+
+**03.01 Testing Datasets Release**
+
+**The testing datasets could be easily downloaded in the following links:**
+- **[Dataset Link from Google Drive](https://drive.google.com/drive/folders/1Pewv7HYacwD5Rrknp5EiAdw8vMbaaFAA?usp=sharing)**
 
 After downloaded all the necessary validation datasets, make sure they are organized as follows:
 ```bash
@@ -139,4 +144,5 @@ Luc Van Gool (luc.vangool@insait.ai)
 
 For more details about the NTIRE Workshop and challenge organizers, visit: [NTIRE 2025](https://cvlai.net/ntire/2025/).
 
-## Acknowledgement
+## License and Acknowledgement
+
