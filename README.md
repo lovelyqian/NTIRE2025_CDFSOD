@@ -5,11 +5,11 @@ Link: https://codalab.lisn.upsaclay.fr/competitions/21851
 
 [**News!**] 25-03-01: We release the [testing datasets](https://drive.google.com/drive/folders/1Pewv7HYacwD5Rrknp5EiAdw8vMbaaFAA?usp=sharing)! 
 
-[**News!**] 25-04-01: Our challenge paper is accepted by NTIRE25 workshop @ CVPR2025. 
+[**News!**] 25-04-01: Our challenge paper is accepted by NTIRE25 workshop @ CVPR2025. 🎉
 
-[**News!**]: [Arxiv Paper]() of the technical report will be released soon 🎉！ TODO
+[**News!**]: [Arxiv Paper]() of the technical report will be released soon！📖 TODO
 
-[**News!**]: Codes of the proposed methods from our participants will be released soon 🎈！ TODO
+[**News!**]: Codes of the proposed methods from our participants will be released soon！ 🎈 TODO
 
 **Links to the proposed solutions:** 🏆
 - winners of open-source CD-FSOD:
