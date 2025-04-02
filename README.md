@@ -5,6 +5,8 @@ Link: https://codalab.lisn.upsaclay.fr/competitions/21851
 
 [**News!**] 25-03-01: We release the [testing datasets](https://drive.google.com/drive/folders/1Pewv7HYacwD5Rrknp5EiAdw8vMbaaFAA?usp=sharing)! 
 
+[**News!**] 25-03-27: The ranking of teams has been released. Check the results [here](https://docs.google.com/spreadsheets/d/1ft1SV9E1k5J4OgUB6omaxRdqTvCn_uLsNlon2AB0llQ/edit?usp=sharing)!
+
 [**News!**] 25-04-01: Our challenge paper is accepted by NTIRE25 workshop @ CVPR2025. 🎉
 
 [**News!**]: [Arxiv Paper]() of the technical report will be released soon！📖 TODO
