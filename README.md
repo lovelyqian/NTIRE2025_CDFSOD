@@ -131,7 +131,7 @@ please consider citing our baseline work:
 and our technical report:
 ```
 @inproceedings{fu2025ntire, 
-  title={NTIRE 2025 challenge on cross-domain few-shot object detection: methods and results,
+  title={NTIRE 2025 challenge on cross-domain few-shot object detection: methods and results},
   author={Fu, Yuqian and Qiu, Xingyu and Ren, Bin and Fu, Yanwei and Timofte, Radu and Sebe, Nicu and Yang, Ming-Hsuan and Van Gool, Luc and others},
   booktitle={CVPRW},
   year={2025}
