@@ -15,7 +15,7 @@ Link: https://codalab.lisn.upsaclay.fr/competitions/21851
 
 **Links to the proposed solutions:** 🏆
 - winners of open-source CD-FSOD:
-TODO
+    - Team AI4EarthLab: https://github.com/jaychempan/ETS.
 
 - winners of closed-source CD-FSOD:
 
