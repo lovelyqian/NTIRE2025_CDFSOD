@@ -19,6 +19,7 @@ Link: https://codalab.lisn.upsaclay.fr/competitions/21851
     - Team AI4EarthLab: https://github.com/jaychempan/ETS.
 
 - Winners of closed-source CD-FSOD:
+    - Team X-Few: https://github.com/johnmaijer/X-Few-_CD-FSOD
 
 - Others:
 TODO
