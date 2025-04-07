@@ -17,14 +17,18 @@ Link: https://codalab.lisn.upsaclay.fr/competitions/21851
 - Winners of open-source CD-FSOD:
     - Team MoveFree: https://github.com/KAIJINZ228/Few_Shot_GD
     - Team AI4EarthLab: https://github.com/jaychempan/ETS.
+    - Team IDCFS: https://github.com/Pumpkinder/GLIP-CDFSOD
 
 - Winners of closed-source CD-FSOD:
     - Team X-Few: https://github.com/johnmaijer/X-Few-_CD-FSOD
 
 - Others:
-TODO
-
-
+    - Team FDUROILab_Lenovo: https://github.com/omnipotent13/cfsod_challenge
+    - Team RLG: https://github.com/lch216/cdfsod-project
+    - Team TongjiLab: https://github.com/Sun-HR02/ProtoDINO/tree/main
+    - Team HUSTLab: https://github.com/Weston111/cdfsod
+    - Team FSV: https://github.com/yuqing-yang/CDFSOD-FSV
+    - Team IPC: https://github.com/Linzeyin/NTIRE2025_CDFSOD_tta
 
 ## About the Challenge
 In this challenge, we invite researchers and developers to participate in the **Cross-Domain Few-Shot Object Detection (CD-FSOD)** competition. The task is to develop and improve methods for few-shot object detection, specifically in cross-domain settings.
