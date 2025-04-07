@@ -14,12 +14,13 @@ Link: https://codalab.lisn.upsaclay.fr/competitions/21851
 [**News!**]: Codes of the proposed methods from our participants will be released soon！ 🎈 TODO
 
 **Links to the proposed solutions:** 🏆
-- winners of open-source CD-FSOD:
+- Winners of open-source CD-FSOD:
+    - Team MoveFree: https://github.com/KAIJINZ228/Few_Shot_GD
     - Team AI4EarthLab: https://github.com/jaychempan/ETS.
 
-- winners of closed-source CD-FSOD:
+- Winners of closed-source CD-FSOD:
 
-- others:
+- Others:
 TODO
 
 
