@@ -16,7 +16,7 @@ Link: https://codalab.lisn.upsaclay.fr/competitions/21851
 **Links to the proposed solutions:** 🏆
 - Winners of open-source CD-FSOD:
     - Team MoveFree: https://github.com/KAIJINZ228/Few_Shot_GD
-    - Team AI4EarthLab: https://github.com/jaychempan/ETS.
+    - Team AI4EarthLab: https://github.com/jaychempan/ETS
     - Team IDCFS: https://github.com/Pumpkinder/GLIP-CDFSOD
 
 - Winners of closed-source CD-FSOD:
