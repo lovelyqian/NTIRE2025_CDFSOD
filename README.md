@@ -9,9 +9,9 @@ Link: https://codalab.lisn.upsaclay.fr/competitions/21851
 
 [**News!**] 25-04-01: Our challenge paper is accepted by NTIRE25 workshop @ CVPR2025. 🎉
 
-[**News!**]: [Arxiv Paper]() of the technical report will be released soon！📖 TODO
+[**News!**]: [Arxiv Paper](https://arxiv.org/pdf/2504.10685) of the technical report will be released！📖 
 
-[**News!**]: Codes of the proposed methods from our participants will be released soon！ 🎈 TODO
+[**News!**]: Codes of the proposed methods from our participants have be released！ 🎈 
 
 **Links to the proposed solutions:** 🏆
 - Winners of open-source CD-FSOD:
